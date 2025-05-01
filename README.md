@@ -10,7 +10,7 @@ Write down the plaintext in "in.txt" file and use makefile to compile and get th
 make
 ```
 
-To change the key, open the "kuz_test.h" file and change the key. Notice that keeping the key size at 256 bits is mandatory.
+To change the key, open the "kuz_test.h" file and edit it. Notice, that keeping the key size at 256 bits is mandatory.
 
 ```c
 static const unsigned char test_key[32] = {
